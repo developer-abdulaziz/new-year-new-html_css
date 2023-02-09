@@ -28,7 +28,7 @@ img {
 }
 .primary_btn {
     background: #FFFFFF;
-    padding: 10px 30px;
+    padding: 14px 24px;
     border-radius: 5px;
     font-style: normal;
     font-weight: 600;
@@ -166,4 +166,29 @@ header {
     font-weight: 500;
     font-size: 25px;
     color: #737272;
+}
+/*=============== contact section ============== */
+.contact {
+    background-image:linear-gradient(to right, #db819f, #6b6b8354, #3b8c990e), url(images/watch.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 14px;
+    padding-left: 64px;
+}
+.contact h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+}
+.contact .primary_btn {
+    color: var(--primaryColor);
 }
