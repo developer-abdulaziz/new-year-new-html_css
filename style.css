@@ -28,14 +28,14 @@ img {
 }
 .primary_btn {
     background: #FFFFFF;
-    padding: 14px 24px;
+    padding: 14px 18px;
     border-radius: 5px;
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
     color: #005FAC;
 }
-main {
+main, .container {
     max-width: 80%;
     margin: 0 auto;
 }
@@ -191,4 +191,61 @@ header {
 }
 .contact .primary_btn {
     color: var(--primaryColor);
+}
+
+/*=============== footer section ============== */
+footer {
+    background: #151414;
+    padding: 50px 0px;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 300px;
+}
+.container > * {
+    flex-basis: 100%;
+}
+.information {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+    gap: 16px;
+}
+.information h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+}
+.information p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.subscribe {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    text-transform: capitalize;
+}
+.subscribe h4 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+.subscribe input {
+    background: none;
+    border: 1px solid rgba(245, 245, 245, 0.26);
+    border-radius: 5px;
+    width: 250px;
+    height: 40px;
+    padding-left: 10px;
 }
