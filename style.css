@@ -83,6 +83,7 @@ header {
     align-items: center;
     justify-content: space-between;
     gap: 87px;
+    margin-bottom: 100px;
 }
 .failures > * {
     flex-basis: 100%;
@@ -126,4 +127,43 @@ header {
     font-weight: 400;
     font-size: 16px;
     color: #444343;
+}
+
+/*=============== My Plan section ============== */
+.plan {
+    margin-bottom: 130px;
+}
+.section_title h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #151414;
+    margin-bottom: 50px;
+}
+.myPlan {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+.planItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    text-align: center;
+}
+.planItem h5 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+}
+.planItem p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
 }
