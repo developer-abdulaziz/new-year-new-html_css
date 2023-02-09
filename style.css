@@ -35,6 +35,10 @@ img {
     font-size: 20px;
     color: #005FAC;
 }
+main {
+    max-width: 80%;
+    margin: 0 auto;
+}
 /*=============== header section ============== */
 header {
     background-image: url(images/banner/banner3.png);
@@ -46,6 +50,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    margin-bottom: 100px;
 }
 .hero_content {
     padding-right: 130px;
@@ -70,4 +75,55 @@ header {
     font-size: 16px;
     line-height: 26px;
     text-align: right;
+}
+
+/*=============== failures section ============== */
+.failures {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 87px;
+}
+.failures > * {
+    flex-basis: 100%;
+}
+/* .failures_content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+} */
+.failures_content h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+.failures_content p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+.dragItem {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.dragBox {
+    display: flex;
+    gap: 5px;
+}
+.dragBox i {
+    color: #16D887;
+    font-size: 24px;
+}
+.dragBox p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
 }
